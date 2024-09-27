@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install graphviz
+apt-get install graphviz
