@@ -263,7 +263,7 @@ def generer_memoire_technique():
                 if key in ['nom_projet', 'infos_dossier_consultation', 'requis_dossier_consultation']:
                     variables[key] = response
 
-            template_path = 'template/template_memoire_technique.pdf'
+            template_path = 'template_memoire_technique.pdf'
 
             # Chemin de sortie du PDF final
             output_pdf_path = f"{prenom}-{nom}-{nom_entreprise}-memoire-technique-final.pdf"
