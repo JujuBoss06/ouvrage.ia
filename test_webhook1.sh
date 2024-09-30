@@ -1,5 +1,5 @@
 curl -X POST \
-   https://5011-2a02-842a-5d00-8601-cc62-a06f-8d43-2ea6.ngrok-free.app/webhook-test/creer-nouveau-utilisateur \
+   https://ouvrage-ia-1.onrender.com/webhook-test/creer-nouveau-utilisateur \
   -H 'Content-Type: application/json' \
   -d '{
         "nom entreprise": "Entreprise XYZ",
@@ -14,6 +14,6 @@ curl -X POST \
         "ville": "Paris",
         "code postal": "75001",
         "effectif": "50",
-        'numero_siren': 625 635 72,
-        'chiffre_affaire': 5M
+        "numero_siren": "625 635 72",
+        "chiffre_affaire": "5M"
       }'
