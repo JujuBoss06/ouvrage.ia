@@ -14,19 +14,39 @@
     {
         "text": "nom_entreprise",
         "x": 225,
-        "y": 575,
+        "y": 570,
         "width": 200,
-        "height": 17,
+        "height": 25,
         "alignment": "left",
         "pages": "0",
         "color": "#FFFFFF"
     },
     {
         "text": "adresse",
-        "x": 224,
-        "y": 602,
+        "x": 225,
+        "y": 590,
         "width": 200,
-        "height": 15,
+        "height": 21,
+        "alignment": "left",
+        "pages": "0",
+        "color": "#FFFFFF"
+    },
+    {
+        "text": "code postal",
+        "x": 225,
+        "y": 608,
+        "width": 200,
+        "height": 21,
+        "alignment": "left",
+        "pages": "0",
+        "color": "#FFFFFF"
+    },
+    {
+        "text": "ville",
+        "x": 267,
+        "y": 608,
+        "width": 200,
+        "height": 21,
         "alignment": "left",
         "pages": "0",
         "color": "#FFFFFF"
@@ -34,9 +54,9 @@
     {
         "text": "numero_siren",
         "x": 274,
-        "y": 627,
+        "y": 625,
         "width": 200,
-        "height": 15,
+        "height": 21,
         "alignment": "left",
         "pages": "0",
         "color": "#FFFFFF"
@@ -46,7 +66,7 @@
         "x": 320,
         "y": 209,
         "width": 200,
-        "height": 15,
+        "height": 21,
         "alignment": "left",
         "pages": "3",
         "color": "#000000"
@@ -56,7 +76,7 @@
         "x": 320,
         "y": 274,
         "width": 180,
-        "height": 19,
+        "height": 21,
         "alignment": "left",
         "pages": "3",
         "color": "#000000"
@@ -66,7 +86,7 @@
         "x": 320,
         "y": 356,
         "width": 200,
-        "height": 17,
+        "height": 21,
         "pages": "3"
     },
     {
@@ -247,6 +267,58 @@
         "height": 600,
         "alignment": "left",
         "pages": "25",
+        "color": "#000000"
+    },
+    {
+        "text": "nom_entreprise",
+        "x": 250,
+        "y": 170,
+        "width": 200,
+        "height": 25,
+        "alignment": "left",
+        "pages": "26",
+        "size": 14,
+        "fontBold": true,
+        "color": "#000000"
+    },
+    {
+        "text": "adresse",
+        "x": 250,
+        "y": 200,
+        "width": 200,
+        "height": 21,
+        "alignment": "left",
+        "pages": "26",
+        "color": "#000000"
+    },
+    {
+        "text": "code postal",
+        "x": 250,
+        "y": 218,
+        "width": 200,
+        "height": 21,
+        "alignment": "left",
+        "pages": "26",
+        "color": "#000000"
+    },
+    {
+        "text": "ville",
+        "x": 287,
+        "y": 218,
+        "width": 200,
+        "height": 21,
+        "alignment": "left",
+        "pages": "26",
+        "color": "#000000"
+    },
+    {
+        "text": "email",
+        "x": 250,
+        "y": 235,
+        "width": 200,
+        "height": 21,
+        "alignment": "left",
+        "pages": "26",
         "color": "#000000"
     }
 ]
