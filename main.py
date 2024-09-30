@@ -278,7 +278,10 @@ def generer_memoire_technique():
             variables.update({
                 'adresse': user_dict.get('adresse', 'Adresse de l\'entreprise'),
                 'numero_siren': user_dict.get('numero_siren', 'Numéro de SIREN'),
-                'chiffre_affaire': user_dict.get('chiffre_affaire', 'Chiffre d\'affaires')
+                'chiffre_affaire': user_dict.get('chiffre_affaire', 'Chiffre d\'affaires'),
+                'code postal': user_dict.get('code postal', 'XXXXX'),
+                'ville': user_dict.get('ville', 'VILLE'),
+                'email': user_dict.get('email', 'xxxx@xxxxxx.fr')
             })
 
             # Séquence qui créer un fichier temp :
