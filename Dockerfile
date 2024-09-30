@@ -1,5 +1,5 @@
 # Utiliser l'image Graphviz de base
-FROM graphviz/graphviz
+FROM graphviz
 
 # Installer Python et pip
 RUN apt-get update && apt-get install -y python3 python3-pip
