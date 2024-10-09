@@ -6,7 +6,6 @@ pdfrw
 reportlab
 PyMuPDF
 frontend
-dotenv
 
 
 #!/bin/bash
