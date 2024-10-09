@@ -6,7 +6,7 @@ pdfrw
 reportlab
 PyMuPDF
 frontend
-
+python-dotenv
 
 #!/bin/bash
 # sudo apt-get install graphviz
