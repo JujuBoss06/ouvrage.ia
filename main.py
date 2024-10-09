@@ -286,7 +286,7 @@ def generer_memoire_technique():
             print("étape après boucle if")
 
                 # Chemin du template
-            template_path = 'template/template_memoire_technique.pdf'
+            template_path = 'template_memoire_technique.pdf'
 
             # Chemin de sortie du PDF final
             output_pdf_path = f"{prenom}-{nom}-{nom_entreprise}-memoire-technique-final.pdf"
